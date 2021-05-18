@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameBoy - Корзина</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><img class="logo_img" src="img/logo.png" alt="logo"></a>
+            <a href="index.html" class="menu_text">Ігри для PS4/PS5</a>
+            <a href="pc.html" class="menu_text">Ігри для PC</a>
+            <a href="old.html" class="menu_text">Oлд скул</a>
+            <a href="table.html" class="menu_text">Настільні ігри</a>
+            <a href="cart.html"><img class="cart_img" src="img/shopping-basket.png" alt="cart"></a>
+        </nav>
+    </header>
+    <main>
+        <div class="cart-area">
+            <h3 class="cart-name">Ваш Кошик</h3>
+            <hr>
+            <div class="cart-title">
+                <div class="cart-title_product cart-title_text">Товар</div>
+                <div class="cart-title_name cart-title_text">Назва товару</div>
+                <div class="cart-title_cost cart-title_text">Ціна</div>
+                <div class="cart-title_quan cart-title_text">Кількість</div>
+                <div class="cart-title_totalprice cart-title_text">Підсумок</div>
+            </div>
+            <div class="cart">
+            </div>
+            <h3 class="cart-name">Оплата та Доставка</h3>
+            <div class="info-fields">
+                <label for="ename">Ім'я</label>
+                <input type="text" id="ename" required><br>
+                <label for="esurname">Призвіще</label>
+                <input type="text" id="esurname" required><br>
+                <label for="ephone">Телефон</label>
+                <input type="tel" id="ephone" required><br>
+                <label for="email">Email</label>
+                <input type="text" id="email" required><br>
+                <label for="edelivery">Відділ Нової Пошти</label>
+                <input type="text" id="edelivery" required><br>
+                <button class="send-email">Оформити замовлення</button>
+            </div>
+            
+        </div>
+       
+    </main>
+    <footer>
+        <p class="footer_text">Кур'єрська доставка по Києву: +38 067 80 75 674<br>
+             Підтримка телефоном (робочі години пн-пт 11:00 - 18:00): <br>+38 098 56 73 492<br> 
+             hello@game-boy.com</p>
+        <p class="footer_text-places">Наші магазини:<br>
+            м. Київ, ТРЦ Океан Плаза<br>
+            м. Київ, ТРЦ Lavina
+            </p>
+        <div class="footer_menu">
+            <a href="ps.html" class="footer_menu_text">Ігри для PS4/PS5</a>
+            <a href="pc.html" class="footer_menu_text">Ігри для PC</a>
+            <a href="old.html" class="footer_menu_text">Oлд скул</a>
+            <a href="table.html" class="footer_menu_text">Настільні ігри</a>
+        </div>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>
