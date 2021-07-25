@@ -2,12 +2,8 @@
 
 ### My 2 real projects:
   - [Beauty Clinic](https://beautyclinic.waw.pl/)
-  - [Cintapet](https://cintapet.pl/)
   
  ### And 3 PET projects:
   - [Natours](https://spryoloman.github.io/natours/)
   - [Trillo](https://spryoloman.github.io/trillo/)
   - [Nexter](https://spryoloman.github.io/nexter/)
-
- ### And 1 Uni project:
-- [GameBoy](https://spryoloman.github.io/GameBoy/)
